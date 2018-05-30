@@ -15,7 +15,7 @@ to run Gentoo on a VPS 2016 SSD 1 at OVH.
 cd /mnt
 mkdir gentoo
 mount /dev/vdb3 /mnt/gentoo
-mount /dev/vdb1 /mnt/gentot/boot
+mount /dev/vdb1 /mnt/gentoo/boot
 mount --rbind /proc /mnt/gentoo/proc
 mount --rbind /dev /mnt/gentoo/dev
 mount --rbind /sys /mnt/gentoo/sys
