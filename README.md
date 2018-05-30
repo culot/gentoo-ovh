@@ -33,3 +33,5 @@ make install
 # then unmount everything
 umount -l /mnt/gentoo
 ```
+
+Working kernel configuration file(s) could be found in the *etc* directory.
