@@ -34,4 +34,11 @@ make install
 umount -l /mnt/gentoo
 ```
 
-Working kernel configuration file(s) could be found in the *etc* directory.
+Working kernel configuration file(s) could be found in the *etc*
+directory.
+
+## Install script
+
+A (pseudo) installation script can be found in
+*src/install-vps.sh*. This installation procedure applies to VPS SSD1
+2016.
