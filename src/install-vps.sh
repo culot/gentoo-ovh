@@ -70,6 +70,11 @@ make menuconfig
 # CONFIG_SCSI_VIRTIO=y
 # CONFIG_VIRTIO_NET=y
 # CONFIG_VHOST_NET=y
+# CONFIG_BLOK_DEV_RAM=y
+# CONFIG_VIRT_DRIVERS=y
+# CONFIG_EXT2_FS=y
+# CONFIG_EXT2_FS_XATTR=y
+# CONFIG_EXT2_FS_POSIX_ACL=y
 
 # Additionally, set the following:
 # General setup -> default hostname

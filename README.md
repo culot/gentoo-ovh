@@ -31,6 +31,7 @@ make modules_install
 make install
 
 # then unmount everything
+exit
 umount -l /mnt/gentoo
 ```
 
