@@ -4,12 +4,12 @@ OVH-specific Gentoo documentation and sources
 This repo helps me keeping track of the configuration settings needed
 to run Gentoo on a VPS 2016 SSD 1 at OVH.
 
-# Links
+## Links
 
-https://wiki.gentoo.org/wiki/User:MalakymR/Drafts/Gentoo_on_OVH_VPS
-https://wiki.gentoo.org/wiki/User:Flow/Gentoo_as_KVM_guest
+* https://wiki.gentoo.org/wiki/User:MalakymR/Drafts/Gentoo_on_OVH_VPS
+* https://wiki.gentoo.org/wiki/User:Flow/Gentoo_as_KVM_guest
 
-# Recovery procedure in Rescue mode
+## Recovery procedure in Rescue mode
 
 ```
 cd /mnt
