@@ -23,7 +23,7 @@ rm stage3-*.tar.xz
 echo 'MAKEOPTS="-j2"' >> /mnt/gentoo/etc/portage/make.conf
 echo 'GENTOO_MIRRORS="rsync://ftp.halifax.rwth-aachen.de/gentoo/ ftp://gentoo.mirrors.ovh.net/gentoo-distfiles/ http://gentoo.mirrors.ovh.net/gentoo-distfiles/"' >> /mnt/gentoo/etc/portage/make.conf
 sed -i s/CFLAGS=\"/CFLAGS=\"-march\=native\ /g /mnt/gentoo/etc/portage/make.conf
-echo 'USE="-X -gtk -systemd -qt -gnome -kde -alsa -pulseaudio bash-completion"' >> /mnt/gentoo/etc/portage/make.conf
+echo 'USE="-X -gtk -systemd -qt -gnome -kde -alsa -pulseaudio -doc -nls bash-completion"' >> /mnt/gentoo/etc/portage/make.conf
 mkdir /mnt/gentoo/etc/portage/repos.conf
 cp /mnt/gentoo/usr/share/portage/config/repos.conf /mnt/gentoo/etc/portage/repos.conf/gentoo.conf
 
