@@ -1,4 +1,4 @@
-# Steps to install Gentoo on a VPS SSD1 2016 from OVH
+# Steps to install Gentoo on a VPS SSD1 2016 from OVH (also tested on 2018 model).
 # Source: https://wiki.gentoo.org/wiki/User:MalakymR/Drafts/Gentoo_on_OVH_VPS
 # (with a few tweaks, such as a larger /boot partition, updated stage3 url,
 # ovh gentoo mirror, typos).
@@ -77,6 +77,20 @@ make menuconfig
 # CONFIG_EXT2_FS_XATTR=y
 # CONFIG_EXT2_FS_POSIX_ACL=y
 # CONFIG_EXT2_FS_SECURITY=y
+# CONFIG_HAVE_KVM_IRQCHIP=y
+# CONFIG_HAVE_KVM_IRQFD=y
+# CONFIG_HAVE_KVM_IRQ_ROUTING=y
+# CONFIG_HAVE_KVM_EVENTFD=y
+# CONFIG_KVM_MMIO=y
+# CONFIG_KVM_ASYNC_PF=y
+# CONFIG_HAVE_KVM_MSI=y
+# CONFIG_HAVE_KVM_CPU_RELAX_INTERCEPT=y
+# CONFIG_KVM_VFIO=y
+# CONFIG_KVM_GENERIC_DIRTYLOG_READ_PROTECT=y
+# CONFIG_KVM_COMPAT=y
+# CONFIG_HAVE_KVM_IRQ_BYPASS=y
+# CONFIG_KVM=y
+# CONFIG_KVM_INTEL=y
 
 # Additionally, set the following:
 # General setup -> default hostname

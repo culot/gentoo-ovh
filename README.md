@@ -2,7 +2,7 @@
 OVH-specific Gentoo documentation and sources
 
 This repo helps me keeping track of the configuration settings needed
-to run Gentoo on a VPS 2016 SSD 1 at OVH.
+to run Gentoo on a VPS 2016 SSD 1 at OVH (also tested on 2018 model).
 
 ## Links
 
@@ -42,4 +42,4 @@ directory.
 
 A (pseudo) installation script can be found in
 *src/install-vps.sh*. This installation procedure applies to VPS SSD1
-2016.
+2016 and 2018.
